@@ -16,5 +16,10 @@ public class LeapYearShould {
         assertTrue(LeapYear.isLeapYear(1600));
     }
 
+    @Test
+    public void return_true_if_year_2400_is_divisible_by_400() {
+
+        assertTrue(LeapYear.isLeapYear(2400));
+    }
 
 }
